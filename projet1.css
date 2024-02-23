@@ -1,0 +1,122 @@
+
+
+body {background-color: #F8F8F8;
+	background-image: url("background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 0;
+overflow-x: hidden;
+}
+
+ @font-face { font-family: greatvibes; src: url('greatvibes.ttf'); } 
+
+
+
+.titre{ height: 120px; text-align: center;
+background-color: whitesmoke; 
+font-family: greatvibes;color: #16130A;}
+.logo{ 
+height: 50px;
+width: 50px;}
+
+.logo1{ height: 30px;
+width: 30px;
+text-align: center;
+display: flex;
+justify-content:center;
+}
+
+#navbarplace{
+    position: sticky;
+    top:  0px;
+    width: 100%;
+}
+
+.chat{margin-left: 10px;}
+
+#bouton{color: #7E736D;
+border-color: #7E736D;}
+#bouton:hover{color: whitesmoke;
+background-color: #7E736D;}
+.block{background-color: whitesmoke;
+margin: 20px;
+padding: 5px;
+border-radius: 6px;}
+.img{width: 800px;
+height: 400px;
+margin-left: 20%;
+margin-right: 20%;
+margin-top: 20px;
+border-radius: 10px;}
+.imgforres{display: none;}
+.imgfl{display: flex;
+flex: 50%;
+justify-content: space-evenly;
+}
+.imgsize{width: 500px;height: auto;}
+.intitule{text-align: center;
+margin: 30px;
+color: #16130A;
+font-family: 'IBM Plex Serif', serif;}
+
+.expl{text-align: center;
+color: #16130A;
+font-family: 'IBM Plex Serif', serif;}
+
+.alignement{display: flex;
+	justify-content:center;
+justify-content: space-around;
+background-color: rgba(255, 249, 249, 0.4);
+padding-bottom: 15px;
+margin-bottom: 20px;
+}
+
+
+
+.pull{height: 200px;
+width: 200px;
+padding: 10px}
+
+.font{color: #16130A;
+	text-shadow: 1px 1px 2px white;
+font-family: 'IBM Plex Serif', serif;
+font-size: 120%;
+font-style: bold;}
+
+#bouton1{color: #261F19;
+border-color: #261F19;
+background-color: #867C7A;}
+#bouton1:hover{color: whitesmoke;
+background-color: #261F19;
+}
+#bouton2{color: #261F19;
+border-color: #261F19;
+background-color: #867C7A}
+#bouton2:hover{color: whitesmoke;
+background-color: #261F19;}
+#bouton3{color: #261F19;
+border-color: #261F19;
+background-color: #867C7A;}
+#bouton3:hover{color: whitesmoke;
+background-color: #261F19;}
+
+.footer{  background-color: #392C1B;
+    color: #fff;
+    text-align: center;
+
+    bottom: 0;
+    width: 100%;
+height: 100%;}
+
+.btn{display: none;}
+
+.endpage{background-color: lightgrey; text-align: center; color: black; margin-top: 10%;}
+
+.iconsize{height: 60px;}
+
+@media screen and (max-width: 800px) {body{background-color: lightgray;}
+.img_hidden{display: none;}
+.btn{display: flex; }
+.img{display: none}
+.pull{display: none}
+.imgforres{display: flex; justify-content: center; height: 200px;}

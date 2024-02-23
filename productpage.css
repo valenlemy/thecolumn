@@ -1,0 +1,99 @@
+
+body{
+	background-color: whitesmoke;
+	
+}
+
+@font-face { font-family: greatvibes; src: url('greatvibes.ttf'); 
+}
+
+.screendisplay{display: flex;flex: 50%;}
+
+
+.pro_img{
+width: 45%; padding: 40px; margin: 20px;
+}
+
+.carousel-item{width: 400px; height: 400px;
+margin: 40px}
+.carousel-indicators{display: flex;
+align-items: center;
+}
+
+.titre{ height: 120px; text-align: center;
+background-color: whitesmoke; 
+font-family: greatvibes;color: #16130A;}
+.logo{ 
+height: 50px;
+width: 50px;}
+
+.logo1{ height: 30px;
+width: 30px;
+text-align: center;
+display: flex;
+justify-content:center;
+}
+
+#navbarplace{
+    position: sticky;
+    top:  0px;
+    width: 100%;
+}
+
+/*.img_sz{
+	width: 100px;
+	height: 100px;
+}*/
+.pro_ch{
+ width: 45%; 
+ padding: 2% 6% 2% 6%; 
+ background-color: lightgrey;
+ margin-top: 9%; 
+ height: 60%; 
+ border-radius: 20px;
+/***/
+}
+.price{display: inline-flex;}
+.pricetag{font-weight: bold;}
+#bouton{ display: inline-block;
+	margin-left: 60%;}
+
+.txt_des{ margin-left: 20%; margin-right: 20%; background-color: whitesmoke; margin-top: 4rem; margin-bottom: 2rem;}
+
+.lisel{padding-top: 10px;padding-bottom: 10px; opacity: 100%;}
+
+.endpage{background-color: lightgrey; text-align: center; color: black; margin-top: 10%;}
+
+.iconsize{height: 60px;}
+
+
+
+@media screen and (max-width: 800px){
+	body {
+		background-color: lightgrey;
+
+	}
+	.screendisplay{display: block}
+	.pro_img{margin-left: 25%;
+		margin-right: 25%;
+	
+
+	 }
+
+	.crs_place{display: block;
+		display: flex;
+justify-content: center;}
+
+.pro_ch{width: 100%;
+align-content: center;
+text-align: center;
+margin:10% 10% 10% 0%;
+padding-left: 5%;padding-right: 5%;
+background-color: whitesmoke;}
+ul{display: hidden;}
+
+.txt_des{margin: 10% 2% 20% 2%;
+border-radius: 10px;}
+}
+
+

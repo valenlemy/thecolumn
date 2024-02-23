@@ -1,0 +1,78 @@
+
+body{background-color: whitesmoke;}
+
+/*.alignement{display: flex;
+	justify-content:center;
+justify-content: space-around;
+background-color: rgba(255, 249, 249, 0.4);
+padding-bottom: 15px;
+margin-bottom: 20px;}*/
+
+
+@font-face { font-family: greatvibes; src: url('greatvibes.ttf'); } 
+.mef{margin-top: 2%;}
+.titre{ height: 120px; text-align: center;
+background-color: whitesmoke; 
+font-family: greatvibes;color: #16130A;}
+.logo{ 
+height: 50px;
+width: 50px;}
+
+.logo1{ height: 30px;
+width: 30px;
+text-align: center;
+display: flex;
+justify-content:center;
+}
+
+#navbarplace{
+    position: sticky;
+    top:  0px;
+    width: 100%;
+}
+
+.description{margin-top: 6%; text-align: center; font-size: large; font-style: italic; width: 75%; margin-left: 13%;}
+
+
+.pull{height: 300px;
+width: 300px;
+border-radius: 10px;
+}
+
+.row {
+	box-sizing: border-box;
+	display: flex;
+	padding-top: 50px;
+}
+
+.btn{ border-width: 2px; border-color: black; background-color: lightgrey; color: black; font-weight: bold; }
+.btnplace{display: flex; justify-content: space-around; }
+
+.mef{margin-bottom: 20vh;
+display: flex;
+justify-content: space-around;}
+
+.font{display: flex; justify-content: space-around; font-style: italic; font-size: large;}
+.column {
+	flex: 33%;
+	height: 300px; 
+}
+
+.onlybottom{margin-bottom: 50px;}
+
+.endpage{background-color: lightgrey; text-align: center; color: black; margin-top: 10%;}
+
+.iconsize{height: 60px;}
+
+@media screen and (max-width:  800px) {
+	.column {
+		flex: 50%;
+		height: 300px;
+	}
+	.pull{width: 110%;
+		height: auto;
+}
+
+
+/*@media screen and (max-width: 800px) {body{background-color: blue;}
+.alignement{flex:50%;}*/
